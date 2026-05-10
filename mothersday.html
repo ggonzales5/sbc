@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ten Devotions for Women of God — A Mother's Day Gift</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&display=swap');
+
+- { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+background-color: #f7f0eb;
+font-family: ‘EB Garamond’, Georgia, serif;
+color: #2d1f1a;
+line-height: 1.8;
+}
+
+.email-wrapper {
+max-width: 680px;
+margin: 0 auto;
+background: #fffdf9;
+}
+
+/* ── HEADER ── */
+.header {
+background: linear-gradient(160deg, #3b1f2b 0%, #5c2d42 50%, #3b1f2b 100%);
+padding: 60px 40px 50px;
+text-align: center;
+position: relative;
+overflow: hidden;
+}
+.header::before {
+content: ‘’;
+position: absolute;
+inset: 0;
+background: url(“data:image/svg+xml,%3Csvg width=‘60’ height=‘60’ viewBox=‘0 0 60 60’ xmlns=‘http://www.w3.org/2000/svg’%3E%3Cg fill=‘none’ fill-rule=‘evenodd’%3E%3Cg fill=’%23ffffff’ fill-opacity=‘0.03’%3E%3Cpath d=‘M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z’/%3E%3C/g%3E%3C/g%3E%3C/svg%3E”);
+}
+.header-ornament {
+font-family: ‘Cinzel’, serif;
+color: #c9956a;
+font-size: 18px;
+letter-spacing: 6px;
+margin-bottom: 18px;
+opacity: 0.9;
+}
+.header h1 {
+font-family: ‘Cormorant Garamond’, serif;
+font-weight: 300;
+font-size: 38px;
+color: #f5ede4;
+line-height: 1.2;
+margin-bottom: 14px;
+letter-spacing: 1px;
+}
+.header h1 em {
+font-style: italic;
+color: #e8c9a8;
+}
+.header-subtitle {
+font-family: ‘Cinzel’, serif;
+color: #c9956a;
+font-size: 13px;
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-bottom: 28px;
+}
+.header-verse {
+font-family: ‘EB Garamond’, serif;
+font-style: italic;
+color: #e8d5c0;
+font-size: 16px;
+max-width: 420px;
+margin: 0 auto 6px;
+line-height: 1.6;
+}
+.header-ref {
+font-family: ‘Cinzel’, serif;
+color: #c9956a;
+font-size: 12px;
+letter-spacing: 2px;
+}
+
+/* ── INTRO ── */
+.intro {
+padding: 36px 48px;
+border-bottom: 1px solid #e8ddd4;
+text-align: center;
+}
+.intro p {
+font-size: 17px;
+color: #5a3e35;
+font-style: italic;
+line-height: 1.9;
+}
+
+/* ── DEVOTION ── */
+.devotion {
+padding: 48px 48px 40px;
+border-bottom: 1px solid #e8ddd4;
+position: relative;
+}
+.devotion:last-of-type {
+border-bottom: none;
+}
+.devotion-number {
+font-family: ‘Cinzel’, serif;
+font-size: 11px;
+letter-spacing: 4px;
+color: #a0614a;
+text-transform: uppercase;
+margin-bottom: 4px;
+}
+.devotion-subtitle {
+font-family: ‘EB Garamond’, serif;
+font-style: italic;
+font-size: 15px;
+color: #9b7060;
+margin-bottom: 8px;
+letter-spacing: 0.5px;
+}
+.devotion-title {
+font-family: ‘Cormorant Garamond’, serif;
+font-weight: 600;
+font-size: 30px;
+color: #3b1f2b;
+line-height: 1.2;
+margin-bottom: 24px;
+padding-bottom: 18px;
+border-bottom: 1px solid #d9c9be;
+}
+
+/* verse block */
+.verse-block {
+background: #fbf5ef;
+border-left: 3px solid #a0614a;
+padding: 18px 22px;
+margin-bottom: 10px;
+border-radius: 0 4px 4px 0;
+}
+.verse-block p {
+font-family: ‘EB Garamond’, serif;
+font-style: italic;
+font-size: 18px;
+color: #3b1f2b;
+line-height: 1.7;
+}
+.cross-refs {
+font-family: ‘Cinzel’, serif;
+font-size: 11px;
+letter-spacing: 1.5px;
+color: #9b7060;
+margin-bottom: 26px;
+padding-left: 2px;
+}
+
+/* body text */
+.devotion-body p {
+font-size: 17.5px;
+color: #2d1f1a;
+margin-bottom: 16px;
+line-height: 1.85;
+text-align: justify;
+}
+
+/* prayer */
+.prayer-block {
+background: linear-gradient(135deg, #f5ede4, #fdf7f2);
+border: 1px solid #ddc9b8;
+border-radius: 6px;
+padding: 22px 26px;
+margin-top: 28px;
+}
+.prayer-label {
+font-family: ‘Cinzel’, serif;
+font-size: 11px;
+letter-spacing: 3px;
+color: #a0614a;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+.prayer-block p {
+font-family: ‘EB Garamond’, serif;
+font-style: italic;
+font-size: 17px;
+color: #3b1f2b;
+line-height: 1.8;
+}
+
+/* divider */
+.divider {
+text-align: center;
+padding: 20px 0 0;
+}
+.divider span {
+color: #c9956a;
+font-size: 18px;
+letter-spacing: 10px;
+}
+
+/* ── CLOSING ── */
+.closing {
+background: linear-gradient(160deg, #3b1f2b 0%, #5c2d42 100%);
+padding: 56px 40px;
+text-align: center;
+}
+.closing-ornament {
+font-family: ‘Cinzel’, serif;
+color: #c9956a;
+font-size: 16px;
+letter-spacing: 6px;
+margin-bottom: 20px;
+}
+.closing h2 {
+font-family: ‘Cormorant Garamond’, serif;
+font-weight: 300;
+font-size: 28px;
+color: #f5ede4;
+margin-bottom: 20px;
+letter-spacing: 1px;
+}
+.closing-verse {
+font-family: ‘EB Garamond’, serif;
+font-style: italic;
+color: #e8d5c0;
+font-size: 17px;
+max-width: 460px;
+margin: 0 auto 10px;
+line-height: 1.7;
+}
+.closing-ref {
+font-family: ‘Cinzel’, serif;
+color: #c9956a;
+font-size: 12px;
+letter-spacing: 2px;
+margin-bottom: 30px;
+}
+.closing-wish {
+font-family: ‘Cormorant Garamond’, serif;
+font-style: italic;
+font-size: 26px;
+color: #e8c9a8;
+letter-spacing: 1px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 600px) {
+.header { padding: 44px 24px 38px; }
+.header h1 { font-size: 28px; }
+.intro, .devotion { padding: 32px 24px; }
+.devotion-title { font-size: 24px; }
+.closing { padding: 44px 24px; }
+}
+</style>
+
+</head>
+<body>
+<div class="email-wrapper">
+
+  <!-- HEADER -->
+
+  <div class="header">
+    <div class="header-ornament">✦ &nbsp; ✦ &nbsp; ✦</div>
+    <h1><em>Ten Devotions</em><br>for Women of God</h1>
+    <div class="header-subtitle">A Mother's Day Gift of Encouragement</div>
+    <p class="header-verse">"She is clothed with strength and honour; and she shall rejoice in time to come."</p>
+    <p class="header-ref">— Proverbs 31:25 (KJV)</p>
+  </div>
+
+  <!-- INTRO -->
+
+  <div class="intro">
+    <p>These ten devotions are written for you — the woman who gives, who prays, who loves, and who keeps going by the grace of God. May each one remind you that you are seen, cherished, and upheld by the One who calls you His own. Happy Mother's Day.</p>
+  </div>
+
+  <!-- DEVOTION 1 -->
+
+  <div class="devotion">
+    <div class="devotion-number">Devotion One</div>
+    <div class="devotion-subtitle">A Woman of Virtue</div>
+    <div class="devotion-title">She Is More Precious Than Rubies</div>
+    <div class="verse-block"><p>"Who can find a virtuous woman? for her price is far above rubies." — Proverbs 31:10 (KJV)</p></div>
+    <div class="cross-refs">Cross-References: Proverbs 31:25–26 &nbsp;|&nbsp; 1 Peter 3:4 &nbsp;|&nbsp; Psalm 139:14</div>
+    <div class="devotion-body">
+      <p>There is a woman the Bible speaks of with great admiration — not because she was perfect, but because she was faithful. Proverbs 31 paints a portrait of a woman who rises early, works with her hands, cares for her household, and opens her arms to the poor. She is not praised for her outward beauty alone, but for the beauty of a life well-lived before God and for others.</p>
+      <p>The word <em>virtuous</em> in the Hebrew is <em>chayil</em> — meaning strength, valor, and moral excellence. This is the very word used to describe mighty warriors. Dear mother, the same word is used to describe you. The quiet courage you show every day — getting up when you are tired, giving when you feel empty, loving when you feel unnoticed — that is chayil. That is holy valor.</p>
+      <p>The Apostle Peter echoes this truth when he writes that the ornament of a meek and quiet spirit is, in the sight of God, of great price (1 Peter 3:4). God sees what the world overlooks. He sees the sleepless nights, the prayers whispered over children, the sacrifices made without applause. And He calls it precious.</p>
+      <p>Psalm 139:14 reminds us that you are fearfully and wonderfully made. God did not make a mistake when He fashioned you. Every gift He placed in you, every role He has called you to fill, was purposed before you drew your first breath. You are not ordinary — you are a woman of God, and your worth is established not by the world's measure, but by heaven's.</p>
+      <p>Today, let this truth settle deep in your heart: you are seen, you are valued, and you are more precious to God than any earthly treasure. Keep going, dear one. Your labor of love is never lost.</p>
+    </div>
+    <div class="prayer-block">
+      <div class="prayer-label">✦ &nbsp; Prayer</div>
+      <p>Heavenly Father, thank You for making me with purpose and with love. On the days I feel overlooked or unseen, remind me that my worth is found in You alone. Help me to walk in the strength You have placed within me, and to reflect Your grace in all I do. In Jesus' name, Amen.</p>
+    </div>
+    <div class="divider"><span>· · ·</span></div>
+  </div>
+
+  <!-- DEVOTION 2 -->
+
+  <div class="devotion">
+    <div class="devotion-number">Devotion Two</div>
+    <div class="devotion-subtitle">Hannah's Faithful Prayer</div>
+    <div class="devotion-title">When You Pray Through Tears</div>
+    <div class="verse-block"><p>"And she was in bitterness of soul, and prayed unto the LORD, and wept sore." — 1 Samuel 1:10 (KJV)</p></div>
+    <div class="cross-refs">Cross-References: Psalm 56:8 &nbsp;|&nbsp; Romans 8:26 &nbsp;|&nbsp; Philippians 4:6–7</div>
+    <div class="devotion-body">
+      <p>Hannah knew heartbreak. Year after year, she carried the weight of an unanswered longing. She was loved by her husband, yet her sorrow was deep and real. And what did she do with that sorrow? She brought it to God. She went to the temple, and in bitterness of soul, she poured out her heart before the Lord.</p>
+      <p>Her lips moved but no sound came out — and the priest thought she was drunk. But God heard every silent word. That is the wonder of prayer: when we cannot find the words, God hears the groan of our spirit. Romans 8:26 tells us that the Spirit Himself maketh intercession for us with groanings which cannot be uttered. You are never more heard than when you cannot speak.</p>
+      <p>Hannah did not pray a polished, perfectly composed prayer. She prayed with tears streaming down her face. And God answered her. He gave her Samuel — a child whose name means <em>asked of God</em> — and Samuel grew to become one of the greatest prophets in Israel's history. What looked like a season of barrenness became the birthplace of a miracle.</p>
+      <p>Perhaps you are in a season of weeping right now. Perhaps there is a prayer you have prayed so many times you wonder if God is listening. Take heart, dear mother. Psalm 56:8 says that God bottles your tears — He does not waste a single one. Every prayer you have prayed in the night, every tear you have shed over a child or a situation, is precious to Him.</p>
+      <p>Do not give up on your prayer. Hannah pressed through discouragement, through misunderstanding, through years of waiting — and God came through. He will come through for you too.</p>
+    </div>
+    <div class="prayer-block">
+      <div class="prayer-label">✦ &nbsp; Prayer</div>
+      <p>Lord, hear my prayer today. You know the longings of my heart that I cannot always put into words. Like Hannah, I bring my tears to You. I trust that You are listening, that You are working, and that Your timing is perfect. Give me the faith to keep praying and the peace to keep trusting. In Jesus' name, Amen.</p>
+    </div>
+    <div class="divider"><span>· · ·</span></div>
+  </div>
+
+  <!-- DEVOTION 3 -->
+
+  <div class="devotion">
+    <div class="devotion-number">Devotion Three</div>
+    <div class="devotion-subtitle">Hagar in the Wilderness</div>
+    <div class="devotion-title">The God Who Sees You</div>
+    <div class="verse-block"><p>"And she called the name of the LORD that spake unto her, Thou God seest me." — Genesis 16:13 (KJV)</p></div>
+    <div class="cross-refs">Cross-References: Isaiah 43:2 &nbsp;|&nbsp; Psalm 34:18 &nbsp;|&nbsp; Matthew 10:29–31</div>
+    <div class="devotion-body">
+      <p>Hagar was a woman with no power, no position, and no one to defend her. She had been used, then cast aside. Alone in the wilderness, with nothing ahead of her but uncertainty and fear, she sat down and wept. She had every reason to believe she was forgotten.</p>
+      <p>But God came to her. Not to a queen, not to a prophet, not to a person of great standing — but to a broken, fleeing servant woman in the desert. And when He spoke to her, He called her by name. He saw her affliction. He gave her a promise. And in that moment, Hagar gave God a name no one else in all of Scripture had ever given Him — she called Him the God who sees.</p>
+      <p>How many mothers have sat in their own wilderness — exhausted, overwhelmed, misunderstood, or alone — wondering if anyone notices? The world may not always see your sacrifice. Your children may not yet understand it. But the God who sees you is watching. He sees you in the kitchen at six in the morning. He sees you in the hospital waiting room. He sees you on your knees by the bedside, crying out for a prodigal child.</p>
+      <p>Isaiah 43:2 promises: <em>When thou passest through the waters, I will be with thee.</em> Not around the waters — through them. God does not always remove the wilderness, but He always meets us in it. Psalm 34:18 adds that He is nigh unto them that are of a broken heart. He draws near to the brokenhearted, not away from them.</p>
+      <p>You are not invisible. You are not forgotten. The God of heaven sees you right where you are today — and He calls you by name.</p>
+    </div>
+    <div class="prayer-block">
+      <div class="prayer-label">✦ &nbsp; Prayer</div>
+      <p>Heavenly Father, You are the God who sees me. Thank You that I am never hidden from Your eyes. In the moments I feel alone or forgotten, remind me that You are near, that You know my name, and that my life is precious to You. Help me to rest in Your watchful love today. In Jesus' name, Amen.</p>
+    </div>
+    <div class="divider"><span>· · ·</span></div>
+  </div>
+
+  <!-- DEVOTION 4 -->
+
+  <div class="devotion">
+    <div class="devotion-number">Devotion Four</div>
+    <div class="devotion-subtitle">Grace to Begin Again</div>
+    <div class="devotion-title">Mercy That Is New Every Morning</div>
+    <div class="verse-block"><p>"It is of the LORD's mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness." — Lamentations 3:22–23 (KJV)</p></div>
+    <div class="cross-refs">Cross-References: Micah 7:18–19 &nbsp;|&nbsp; 1 John 1:9 &nbsp;|&nbsp; Isaiah 43:25</div>
+    <div class="devotion-body">
+      <p>Motherhood is one of the most beautiful callings in the world — and also one of the most humbling. There are days when patience runs thin, when words come out sharper than intended, when we fall into bed feeling like we did not get it right. If you have ever carried the weight of a mother's regret, this devotion is for you.</p>
+      <p>Lamentations was written in the depths of sorrow and loss. Yet in the middle of that grief, the writer lifts his eyes and remembers something: the LORD's mercies never fail. They do not grow stale. They do not run out. Every single morning, mercy is fresh. Every single morning, you are given the gift of a new start.</p>
+      <p>Micah 7:18 asks a breathtaking question: <em>Who is a God like unto thee, that pardoneth iniquity?</em> God does not merely tolerate your failures — He pardons them. He casts them behind His back (Isaiah 43:25). And 1 John 1:9 assures us that if we confess our sins, He is faithful and just to forgive us and to cleanse us from all unrighteousness. All of it. Every harsh word, every moment of impatience, every failure you replay at night — cleansed.</p>
+      <p>You do not have to earn your way back into God's grace. You were never outside of it. His compassions are not based on your performance; they are rooted in His faithfulness. <em>Great is thy faithfulness</em> — not great is your consistency, not great is your perfection, but great is His.</p>
+      <p>Tomorrow morning when you rise, His mercy rises with you. Today is not defined by yesterday's mistakes. You are a mother held by a merciful God, and every morning is an invitation to begin again.</p>
+    </div>
+    <div class="prayer-block">
+      <div class="prayer-label">✦ &nbsp; Prayer</div>
+      <p>Father, thank You for mercy that never runs out. Forgive me for the times I have fallen short. Wash me clean and help me to rise with fresh grace today. Let Your faithfulness be greater in my life than my own failings. I receive Your mercy this morning with a grateful heart. In Jesus' name, Amen.</p>
+    </div>
+    <div class="divider"><span>· · ·</span></div>
+  </div>
+
+  <!-- DEVOTION 5 -->
+
+  <div class="devotion">
+    <div class="devotion-number">Devotion Five</div>
+    <div class="devotion-subtitle">Fervent Prayer That Avails Much</div>
+    <div class="devotion-title">The Power of a Praying Mother</div>
+    <div class="verse-block"><p>"The effectual fervent prayer of a righteous man availeth much." — James 5:16b (KJV)</p></div>
+    <div class="cross-refs">Cross-References: Jeremiah 33:3 &nbsp;|&nbsp; Matthew 7:7–8 &nbsp;|&nbsp; 1 Thessalonians 5:17</div>
+    <div class="devotion-body">
+      <p>There is no force on earth quite like a mother's prayer. History and Scripture alike bear witness to it. Behind many great men and women of God stood a mother who prayed — who called upon the name of the Lord on behalf of her children, sometimes for years, sometimes through tears, always in faith.</p>
+      <p>The word <em>effectual</em> in James 5:16 comes from the Greek <em>energeo</em> — from which we get the word energy. It describes a prayer that is active, working, and alive. And <em>fervent</em> speaks of heat — of a prayer that burns with sincerity and passion. This is not a lifeless recitation; this is a mother on her knees, pressing through to God on behalf of someone she loves.</p>
+      <p>Jeremiah 33:3 records God's open invitation: <em>Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.</em> God is not distant or reluctant. He is a Father who longs to be asked, who delights to reveal mighty things to those who seek Him. Your prayers for your children are not disappearing into the air — they are ascending to the throne of God.</p>
+      <p>Matthew 7:7 gives us three commands: Ask, seek, and knock. Each one in the original language is a continuous action — keep asking, keep seeking, keep knocking. Do not stop. The mother who prays persistently for a wayward child, a struggling marriage, or a prodigal son is doing some of the most important work in the Kingdom of God.</p>
+      <p>1 Thessalonians 5:17 simply says to pray without ceasing. This does not mean to never stop talking — it means to live in a posture of prayer, always connected to the Father. Dear praying mother, your prayers are powerful. They are moving mountains you cannot yet see.</p>
+    </div>
+    <div class="prayer-block">
+      <div class="prayer-label">✦ &nbsp; Prayer</div>
+      <p>Lord, teach me to pray with greater fervency and faith. I bring my children before You now — their struggles, their futures, their hearts. I trust that You hear every prayer I lift to You. Keep me faithful in prayer even when I cannot yet see the answers. You are a God who moves when His people pray. In Jesus' name, Amen.</p>
+    </div>
+    <div class="divider"><span>· · ·</span></div>
+  </div>
+
+  <!-- DEVOTION 6 -->
+
+  <div class="devotion">
+    <div class="devotion-number">Devotion Six</div>
+    <div class="devotion-subtitle">Ruth and Naomi</div>
+    <div class="devotion-title">Love That Will Not Let Go</div>
+    <div class="verse-block"><p>"Whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God." — Ruth 1:16 (KJV)</p></div>
+    <div class="cross-refs">Cross-References: John 15:13 &nbsp;|&nbsp; Proverbs 17:17 &nbsp;|&nbsp; Romans 8:38–39</div>
+    <div class="devotion-body">
+      <p>Naomi had lost everything — her husband, her sons, her homeland, her hope. As she prepared to return to Bethlehem, she urged her daughters-in-law to go back to their own families and find new lives. It was a selfless release. And Orpah, with tears, turned back. But Ruth held on.</p>
+      <p>Ruth's words to Naomi are among the most beautiful in all of Scripture. They are words of covenant love — a love that does not depend on circumstances, does not fade with difficulty, and does not calculate the cost. <em>Whither thou goest, I will go.</em> This was not a casual sentiment. Ruth was choosing poverty, foreignness, and uncertainty — all for the sake of love.</p>
+      <p>Mothers know something of this love. The love that stays through sleepless nights with a sick child. The love that does not abandon a prodigal. The love that sits beside a hospital bed for the hundredth day. This love is not merely human — it is a reflection of God's own steadfast love toward us. Romans 8:38–39 assures us that nothing in all creation can separate us from the love of God which is in Christ Jesus.</p>
+      <p>Proverbs 17:17 says, <em>A friend loveth at all times, and a brother is born for adversity.</em> Ruth was born for Naomi's adversity. And God honored that love — He led Ruth to Boaz, restored Naomi's joy, and placed Ruth in the very lineage of Jesus Christ. Love that holds on is never wasted.</p>
+      <p>Whatever relationship you are holding onto today — a difficult child, an aging parent, a struggling friend — know that love given in faithfulness is love God honors. He sees every act of loyal, self-giving love, and He does not forget it.</p>
+    </div>
+    <div class="prayer-block">
+      <div class="prayer-label">✦ &nbsp; Prayer</div>
+      <p>Father, thank You for a love that will not let me go. Help me to love the people in my life with that same covenant faithfulness — a love that stays, that serves, and that reflects Your heart. Where love feels costly today, give me Your strength to hold on. In Jesus' name, Amen.</p>
+    </div>
+    <div class="divider"><span>· · ·</span></div>
+  </div>
+
+  <!-- DEVOTION 7 -->
+
+  <div class="devotion">
+    <div class="devotion-number">Devotion Seven</div>
+    <div class="devotion-subtitle">Strength for the Long Road</div>
+    <div class="devotion-title">Do Not Grow Weary, Dear Mother</div>
+    <div class="verse-block"><p>"And let us not be weary in well doing: for in due season we shall reap, if we faint not." — Galatians 6:9 (KJV)</p></div>
+    <div class="cross-refs">Cross-References: Isaiah 40:31 &nbsp;|&nbsp; Psalm 55:22 &nbsp;|&nbsp; Hebrews 12:1–3</div>
+    <div class="devotion-body">
+      <p>If there is one thing every mother understands, it is weariness. Not just the physical tiredness of long days and short nights, but the deeper weariness of giving continuously — of pouring out love, patience, wisdom, and care day after day, sometimes without a word of thanks or a visible result.</p>
+      <p>Paul's words in Galatians 6:9 were written for exactly this kind of tiredness. <em>Do not be weary in well doing.</em> The word for weary here means to lose heart, to give up, to sink down from exhaustion. And Paul speaks it as a gentle command: don't quit. Because a harvest is coming. <em>In due season we shall reap — if we faint not.</em></p>
+      <p>Isaiah 40:31 carries one of the most tender promises in all of Scripture: <em>They that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.</em> The strength promised here is supernatural. It is the strength that comes from waiting on God — from drawing from His reserves when yours are empty.</p>
+      <p>Psalm 55:22 says, <em>Cast thy burden upon the LORD, and he shall sustain thee.</em> You were never meant to carry the weight of motherhood alone. God designed you to depend on Him — to bring Him your exhaustion and receive His sustenance in return. The load lightens when you cast it at His feet.</p>
+      <p>Hebrews 12:1–3 calls us to run with endurance, looking unto Jesus. Keep your eyes on Him, dear mother. He knows what it is to give everything for those He loves. He will sustain you. The harvest is coming — and it will be worth every weary mile.</p>
+    </div>
+    <div class="prayer-block">
+      <div class="prayer-label">✦ &nbsp; Prayer</div>
+      <p>Lord, I am tired. But I do not want to give up. Renew my strength today like the eagle's — lift me above the weariness so I can see the bigger picture. Help me to cast my burdens on You and trust that the seeds I am planting will bear fruit in due season. I choose to keep going in Your strength. In Jesus' name, Amen.</p>
+    </div>
+    <div class="divider"><span>· · ·</span></div>
+  </div>
+
+  <!-- DEVOTION 8 -->
+
+  <div class="devotion">
+    <div class="devotion-number">Devotion Eight</div>
+    <div class="devotion-subtitle">Mary's Faithful Love</div>
+    <div class="devotion-title">Standing at the Cross</div>
+    <div class="verse-block"><p>"Now there stood by the cross of Jesus his mother..." — John 19:25 (KJV)</p></div>
+    <div class="cross-refs">Cross-References: Luke 2:35 &nbsp;|&nbsp; Isaiah 53:3–4 &nbsp;|&nbsp; Romans 5:3–5</div>
+    <div class="devotion-body">
+      <p>Four words that stop the heart: <em>his mother was there.</em> While others fled, while disciples scattered in fear and confusion, Mary stood. She stood at the foot of the cross and watched her Son suffer. Years before, the prophet Simeon had told her that a sword would pierce her own soul (Luke 2:35). Now she understood what he meant.</p>
+      <p>We do not know what Mary said in those dark hours. We do not know whether she wept aloud or in silence. But we know she did not leave. She stood — a mother bearing the unbearable, held upright not by her own strength, but by a love that would not let her turn away. There is something profoundly holy about a mother's willingness to stay in the hard places.</p>
+      <p>Many mothers know what it is to stand at a kind of cross — beside a child in crisis, in the waiting room of a hospital, at the graveside of someone they loved dearly, or through years of watching a child walk a painful road. These are not small sufferings. They are the kind that mark a soul forever.</p>
+      <p>Isaiah 53 tells us that Jesus was a man of sorrows and acquainted with grief. He knows suffering from the inside out. And Romans 5:3–5 assures us that tribulation worketh patience, and patience experience, and experience hope — and that hope maketh not ashamed because the love of God is shed abroad in our hearts.</p>
+      <p>If you are standing at a cross today, take courage from Mary. God does not waste our suffering. He redeems it. And Sunday always follows Friday.</p>
+    </div>
+    <div class="prayer-block">
+      <div class="prayer-label">✦ &nbsp; Prayer</div>
+      <p>Jesus, You know what it is to suffer, and You know what it is to watch someone You love suffer. Meet me in my pain today. Give me the grace to stand firm, even when I do not understand. Let my steadfastness in hard times be a testimony to Your sustaining love. In Your name I pray, Amen.</p>
+    </div>
+    <div class="divider"><span>· · ·</span></div>
+  </div>
+
+  <!-- DEVOTION 9 -->
+
+  <div class="devotion">
+    <div class="devotion-number">Devotion Nine</div>
+    <div class="devotion-subtitle">The Wisdom of a Mother's Voice</div>
+    <div class="devotion-title">Words That Build Up</div>
+    <div class="verse-block"><p>"She openeth her mouth with wisdom; and in her tongue is the law of kindness." — Proverbs 31:26 (KJV)</p></div>
+    <div class="cross-refs">Cross-References: Proverbs 18:21 &nbsp;|&nbsp; Deuteronomy 6:6–7 &nbsp;|&nbsp; Colossians 4:6</div>
+    <div class="devotion-body">
+      <p>Of all the gifts a mother gives, one of the most powerful is also the most invisible: her words. The words a mother speaks over her children — words of encouragement, correction, blessing, and truth — can echo in a heart for a lifetime. Proverbs 31:26 describes the excellent mother as one whose mouth opens with wisdom and whose tongue carries <em>the law of kindness.</em></p>
+      <p>The <em>law of kindness</em> is a beautiful phrase. It suggests that kindness is not merely an occasional mood but a governing principle — a habit of the tongue that shapes every conversation. This mother has trained her words to serve, to heal, and to build up rather than tear down.</p>
+      <p>Proverbs 18:21 gives a sobering reminder: <em>Death and life are in the power of the tongue.</em> Words can wound or words can heal. A mother's voice is among the first a child hears, and it shapes the way they understand themselves and the world. Words spoken in love — <em>I am proud of you, I believe in you, God has a plan for your life</em> — are seeds that bear fruit for generations.</p>
+      <p>Deuteronomy 6:6–7 gives mothers a precious mandate: to speak the words of God diligently — when sitting, walking, lying down, and rising up. The Bible on a mother's lips throughout the ordinary moments of the day is one of the greatest inheritances she can give.</p>
+      <p>Colossians 4:6 instructs us to let our speech be always with grace, seasoned with salt. Grace in our words does not mean we never speak truth — it means we speak truth in a way that gives life. Ask God today to guard your tongue and fill it with His wisdom and kindness.</p>
+    </div>
+    <div class="prayer-block">
+      <div class="prayer-label">✦ &nbsp; Prayer</div>
+      <p>Lord, set a watch over my mouth today. Let the words I speak over my family be filled with Your wisdom and kindness. Help me to be quick to encourage and slow to wound. May my voice be a source of life to those I love, and may the words I plant in their hearts bear fruit for eternity. In Jesus' name, Amen.</p>
+    </div>
+    <div class="divider"><span>· · ·</span></div>
+  </div>
+
+  <!-- DEVOTION 10 -->
+
+  <div class="devotion">
+    <div class="devotion-number">Devotion Ten</div>
+    <div class="devotion-subtitle">Resilience by the Grace of God</div>
+    <div class="devotion-title">Pressed But Not Crushed</div>
+    <div class="verse-block"><p>"We are troubled on every side, yet not distressed; we are perplexed, but not in despair; persecuted, but not forsaken; cast down, but not destroyed." — 2 Corinthians 4:8–9 (KJV)</p></div>
+    <div class="cross-refs">Cross-References: Philippians 4:13 &nbsp;|&nbsp; Deuteronomy 33:27 &nbsp;|&nbsp; 2 Corinthians 12:9</div>
+    <div class="devotion-body">
+      <p>Paul's words in 2 Corinthians 4 read like the testimony of a woman who has survived hard seasons and found God faithful in every one. Troubled — yet not distressed. Perplexed — yet not in despair. Cast down — yet not destroyed. Every line is a tension held together by grace. This is not the language of someone who has never suffered; it is the language of someone who has suffered and found God sufficient.</p>
+      <p>Motherhood carries its own version of these tensions. Troubled on every side — the demands of children, finances, health, relationships, and uncertainty pressing in from every direction. Yet not distressed — because underneath it all, there are everlasting arms (Deuteronomy 33:27). Cast down but not destroyed — because God's grace is in the falling, not just the standing.</p>
+      <p>2 Corinthians 12:9 holds one of the most astonishing promises in all of Scripture: <em>My grace is sufficient for thee: for my strength is made perfect in weakness.</em> The very places where you feel most inadequate are the places where God's power shows up most clearly. Your weakness is not a disqualification — it is an invitation for His strength to be displayed.</p>
+      <p>Philippians 4:13 declares: <em>I can do all things through Christ which strengtheneth me.</em> Not through willpower, not through perfect circumstances, but through Christ. The resilient mother is not the one who never bends — she is the one who bends toward God when the pressure comes, and finds Him holding her.</p>
+      <p>You have come through hard things before, and God has been faithful every time. He will be faithful again. You are pressed — but you are not crushed. You are His, and He will not let you go.</p>
+    </div>
+    <div class="prayer-block">
+      <div class="prayer-label">✦ &nbsp; Prayer</div>
+      <p>Father, in every pressure and perplexity, I choose to lean on You. Thank You that Your grace is enough — that when I am weak, You are strong. Help me to stop striving in my own strength and rest in Yours. I am pressed, but I am not destroyed, because You hold me. In Jesus' name, Amen.</p>
+    </div>
+  </div>
+
+  <!-- CLOSING -->
+
+  <div class="closing">
+    <div class="closing-ornament">✦ &nbsp; ✦ &nbsp; ✦</div>
+    <h2>A Blessing for You</h2>
+    <p class="closing-verse">"The LORD bless thee, and keep thee: the LORD make his face shine upon thee, and be gracious unto thee: the LORD lift up his countenance upon thee, and give thee peace."</p>
+    <p class="closing-ref">— Numbers 6:24–26 (KJV)</p>
+    <p class="closing-wish">Happy Mother's Day</p>
+  </div>
+
+</div>
+</body>
+</html>
